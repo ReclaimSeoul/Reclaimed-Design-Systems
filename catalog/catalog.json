@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T10:19:04.060Z",
+  "generated_at": "2026-07-05T10:20:22.716Z",
   "count": 1,
   "systems": [
     {
@@ -8,9 +8,7 @@
       "description": "A system for reusing bottles with different sizes",
       "description_long": "",
       "tags": [],
-      "license": {
-        "value": "CC-BY-4.0"
-      },
+      "license": "CC-BY-4.0",
       "author": "Andrea Rossi",
       "authors": [
         "Andrea Rossi"
