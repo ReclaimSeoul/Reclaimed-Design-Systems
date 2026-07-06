@@ -1,34 +1,27 @@
-# Wasp-Atlas
-Collection of reusable Aggregation systems for the Wasp Framework
+# Reclaimed Design Systems
+
+Design systems developed during the AAVS26 Reclaim Seoul Workshop.
+
+This repository collects reusable aggregation/design systems for material reuse workflows. Each system is stored as a folder inside `systems/`, with its own metadata, aggregation data, thumbnail, and generated documentation.
 
 ## Available systems
 
-<!-- AUTO-LIST:START -->
+<!-- CATALOG:START -->
+<!-- This section is automatically generated. Do not edit manually. -->
+<!-- CATALOG:END -->
 
-<table width="100%">
-  <tbody>
-    <tr>
-      <td width="50%" valign="top">
+## Repository structure
 
-<table>
-  <tr>
-    <td width="90">
-      <img src="systems/bottles-system/00_thumb.png" width="72" />
-    </td>
-    <td>
-      <strong><a href="systems/bottles-system">Multi-Bottle System</a></strong><br/>
-      <sub>by Andrea Rossi</sub><br/>
-      
-      <a href="systems/bottles-system/aggregation.json">aggregation.json</a> · <a href="systems/bottles-system/meta.json">meta.json</a>
-    </td>
-  </tr>
-</table>
-      </td>
-      <td width="50%" valign="top">
-&nbsp;
-      </td>
-    </tr>
-  </tbody>
-</table>
+```txt
+systems/
+  <system-slug>/
+    aggregation.json
+    meta.json
+    00_thumb.png
+    README.md
 
-<!-- AUTO-LIST:END -->
+catalog/
+  catalog.json
+
+scripts/
+  build_catalog.mjs
