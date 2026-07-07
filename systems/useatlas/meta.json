@@ -1,0 +1,28 @@
+{
+  "slug": "useatlas",
+  "title": "Multi-Bottle System",
+  "authors": [
+    {
+      "name": "Andrea Rossi",
+      "affiliation": "Reclaim Seoul"
+    }
+  ],
+  "license": {
+    "value": "CC-BY-4.0"
+  },
+  "description": {
+    "short": "A system for reusing bottles with different sizes",
+    "long": ""
+  },
+  "tags": [],
+  "units": "mm",
+  "metrics": {
+    "parts_total": 5,
+    "rules_total": 36
+  },
+  "files": {
+    "aggregation": "useatlas/aggregation.json",
+    "meta": "useatlas/meta.json",
+    "thumbnail": "useatlas/00_thumb.png"
+  }
+}
