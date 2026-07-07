@@ -1,6 +1,6 @@
-# plastic bottles with 45 degree
+# plastic bottles with multi degree
 
-![plastic bottles with 45 degree](00_thumb.png)
+![plastic bottles with multi degree](00_thumb.png)
 
 ## Description
 

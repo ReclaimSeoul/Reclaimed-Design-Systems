@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T08:25:55.626Z",
+  "generated_at": "2026-07-07T08:56:38.019Z",
   "count": 4,
   "systems": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "slug": "plasticbottles",
-      "name": "plastic bottles with 45 degree",
+      "name": "plastic bottles with multi degree",
       "description": "A system for reusing bottles with different sizes",
       "description_long": "",
       "tags": [],
