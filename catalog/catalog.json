@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T06:38:52.525Z",
-  "count": 3,
+  "generated_at": "2026-07-07T08:25:55.626Z",
+  "count": 4,
   "systems": [
     {
       "slug": "bottles-system",
@@ -49,6 +49,21 @@
       "thumbnail": "systems/test-system/00_thumb.png",
       "aggregation_url": "systems/test-system/aggregation.json",
       "meta_url": "systems/test-system/meta.json"
+    },
+    {
+      "slug": "tree-angle",
+      "name": "tree-angle",
+      "description": "A system for reusing wood with different sizes",
+      "description_long": "",
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "author": "tree-team",
+      "authors": [
+        "tree-team"
+      ],
+      "thumbnail": "systems/tree-angle/00_thumb.png",
+      "aggregation_url": "systems/tree-angle/aggregation.json",
+      "meta_url": "systems/tree-angle/meta.json"
     }
   ]
 }
