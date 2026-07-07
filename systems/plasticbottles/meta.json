@@ -17,8 +17,8 @@
   "tags": [],
   "units": "mm",
   "metrics": {
-    "parts_total": 4,
-    "rules_total": 20
+    "parts_total": 6,
+    "rules_total": 76
   },
   "files": {
     "aggregation": "plasticbottles/aggregation.json",
