@@ -1,6 +1,6 @@
 {
   "slug": "plasticbottles",
-  "title": "plastic bottles with 45 degree",
+  "title": "plastic bottles with multi degree",
   "authors": [
     {
       "name": "Seunghyuk Hyun, Han",
@@ -17,8 +17,8 @@
   "tags": [],
   "units": "mm",
   "metrics": {
-    "parts_total": 3,
-    "rules_total": 42
+    "parts_total": 4,
+    "rules_total": 20
   },
   "files": {
     "aggregation": "plasticbottles/aggregation.json",
