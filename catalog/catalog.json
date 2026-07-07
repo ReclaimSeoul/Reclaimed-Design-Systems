@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T14:13:51.956Z",
-  "count": 5,
+  "generated_at": "2026-07-07T14:25:46.698Z",
+  "count": 6,
   "systems": [
     {
       "slug": "bottles-system",
@@ -79,6 +79,21 @@
       "thumbnail": "systems/tree-angle/00_thumb.png",
       "aggregation_url": "systems/tree-angle/aggregation.json",
       "meta_url": "systems/tree-angle/meta.json"
+    },
+    {
+      "slug": "useatlas",
+      "name": "Multi-Bottle System",
+      "description": "A system for reusing bottles with different sizes",
+      "description_long": "",
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "author": "Andrea Rossi",
+      "authors": [
+        "Andrea Rossi"
+      ],
+      "thumbnail": "systems/useatlas/00_thumb.png",
+      "aggregation_url": "systems/useatlas/aggregation.json",
+      "meta_url": "systems/useatlas/meta.json"
     }
   ]
 }
