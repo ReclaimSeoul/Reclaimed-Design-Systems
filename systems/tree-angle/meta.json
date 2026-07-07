@@ -1,0 +1,28 @@
+{
+  "slug": "tree-angle",
+  "title": "tree-angle",
+  "authors": [
+    {
+      "name": "tree-team",
+      "affiliation": "Reclaim Seoul"
+    }
+  ],
+  "license": {
+    "value": "CC-BY-4.0"
+  },
+  "description": {
+    "short": "A system for reusing wood with different sizes",
+    "long": ""
+  },
+  "tags": [],
+  "units": "",
+  "metrics": {
+    "parts_total": 2,
+    "rules_total": 9
+  },
+  "files": {
+    "aggregation": "tree-angle/aggregation.json",
+    "meta": "tree-angle/meta.json",
+    "thumbnail": "tree-angle/00_thumb.png"
+  }
+}
