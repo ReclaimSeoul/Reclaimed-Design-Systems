@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T14:28:02.412Z",
+  "generated_at": "2026-07-07T14:29:43.944Z",
   "count": 6,
   "systems": [
     {
@@ -82,14 +82,14 @@
     },
     {
       "slug": "useatlas",
-      "name": "test",
+      "name": "test123",
       "description": "A system for reusing bottles with different sizes",
       "description_long": "",
       "tags": [],
       "license": "CC-BY-4.0",
-      "author": "Andrea Rossi",
+      "author": "jihyeon",
       "authors": [
-        "Andrea Rossi"
+        "jihyeon"
       ],
       "thumbnail": "systems/useatlas/00_thumb.png",
       "aggregation_url": "systems/useatlas/aggregation.json",

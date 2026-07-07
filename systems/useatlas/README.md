@@ -1,6 +1,6 @@
-# test
+# test123
 
-![test](00_thumb.png)
+![test123](00_thumb.png)
 
 ## Description
 
@@ -11,7 +11,7 @@ A system for reusing bottles with different sizes
 | Field | Value |
 |---|---|
 | Slug | `useatlas` |
-| Author | Andrea Rossi |
+| Author | jihyeon |
 | License | CC-BY-4.0 |
 | Tags | _No tags_ |
 
