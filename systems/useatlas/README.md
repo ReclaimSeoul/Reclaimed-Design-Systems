@@ -1,6 +1,6 @@
-# Multi-Bottle System
+# test
 
-![Multi-Bottle System](00_thumb.png)
+![test](00_thumb.png)
 
 ## Description
 

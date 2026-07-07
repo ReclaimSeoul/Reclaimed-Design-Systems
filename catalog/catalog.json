@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T14:25:46.698Z",
+  "generated_at": "2026-07-07T14:28:02.412Z",
   "count": 6,
   "systems": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "slug": "useatlas",
-      "name": "Multi-Bottle System",
+      "name": "test",
       "description": "A system for reusing bottles with different sizes",
       "description_long": "",
       "tags": [],
