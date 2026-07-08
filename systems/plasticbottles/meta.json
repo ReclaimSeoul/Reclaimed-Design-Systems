@@ -1,9 +1,9 @@
 {
   "slug": "plasticbottles",
-  "title": "plastic bottles with multi degree",
+  "title": "plastic bottles with multi purpose",
   "authors": [
     {
-      "name": "Seunghyuk Hyun, Han",
+      "name": "Seunghyuk Hyun, Jahan",
       "affiliation": "Reclaim Seoul"
     }
   ],
@@ -18,7 +18,7 @@
   "units": "mm",
   "metrics": {
     "parts_total": 6,
-    "rules_total": 76
+    "rules_total": 100
   },
   "files": {
     "aggregation": "plasticbottles/aggregation.json",
