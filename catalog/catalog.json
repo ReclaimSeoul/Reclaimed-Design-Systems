@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T16:09:47.406Z",
+  "generated_at": "2026-07-08T01:16:11.370Z",
   "count": 6,
   "systems": [
     {
@@ -34,14 +34,14 @@
     },
     {
       "slug": "plasticbottles",
-      "name": "plastic bottles with multi degree",
+      "name": "plastic bottles with multi purpose",
       "description": "A system for reusing bottles with different sizes",
       "description_long": "",
       "tags": [],
       "license": "CC-BY-4.0",
-      "author": "Seunghyuk Hyun, Han",
+      "author": "Seunghyuk Hyun, Jahan",
       "authors": [
-        "Seunghyuk Hyun, Han"
+        "Seunghyuk Hyun, Jahan"
       ],
       "thumbnail": "systems/plasticbottles/00_thumb.jpg",
       "aggregation_url": "systems/plasticbottles/aggregation.json",

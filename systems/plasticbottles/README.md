@@ -1,6 +1,6 @@
-# plastic bottles with multi degree
+# plastic bottles with multi purpose
 
-![plastic bottles with multi degree](00_thumb.png)
+![plastic bottles with multi purpose](00_thumb.png)
 
 ## Description
 
@@ -11,7 +11,7 @@ A system for reusing bottles with different sizes
 | Field | Value |
 |---|---|
 | Slug | `plasticbottles` |
-| Author | Seunghyuk Hyun, Han |
+| Author | Seunghyuk Hyun, Jahan |
 | License | CC-BY-4.0 |
 | Tags | _No tags_ |
 
