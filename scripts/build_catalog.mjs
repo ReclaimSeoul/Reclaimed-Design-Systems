@@ -212,6 +212,15 @@ function escapeMd(text) {
   return String(text ?? "").replace(/\|/g, "\\|").trim();
 }
 
+function escapeHtml(text) {
+  return String(text ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .trim();
+}
+
 function buildRootReadmeSection(systems) {
   if (systems.length === 0) {
     return `${AUTO_START}
@@ -257,6 +266,55 @@ ${tableRows}
 ${AUTO_END}`;
 }
 
+function buildRootReadmeSectionHtml(systems) {
+  if (systems.length === 0) {
+    return `${AUTO_START}
+<!-- This section is automatically generated. Do not edit manually. -->
+
+No systems available yet.
+
+${AUTO_END}`;
+  }
+
+  function buildSystemCell(system) {
+    if (!system) return "&nbsp;";
+
+    const thumbnail = `<img src="${escapeHtml(
+      system.thumbnail
+    )}" alt="${escapeHtml(system.name)}" width="360" height="240">`;
+    const name = `<a href="systems/${system.slug}/">${escapeHtml(
+      system.name
+    )}</a>`;
+    const author = escapeHtml(system.author || "Unknown");
+    const description = escapeHtml(system.description || "");
+    const files = `<a href="${system.aggregation_url}">aggregation.json</a> &middot; <a href="${system.meta_url}">meta.json</a>`;
+
+    return `${thumbnail}<br>${name}<br><br>${description}<br><br>by ${author}<br>${files}`;
+  }
+
+  const rows = [];
+
+  for (let index = 0; index < systems.length; index += 2) {
+    rows.push(`<tr>
+<td width="50%" valign="top">${buildSystemCell(systems[index])}</td>
+<td width="50%" valign="top">${buildSystemCell(systems[index + 1])}</td>
+</tr>`);
+  }
+
+  return `${AUTO_START}
+<!-- This section is automatically generated. Do not edit manually. -->
+
+<table width="100%">
+<colgroup>
+<col width="50%">
+<col width="50%">
+</colgroup>
+${rows.join("\n")}
+</table>
+
+${AUTO_END}`;
+}
+
 function updateRootReadme(systems) {
   assert(exists(README_PATH), "Missing root README.md.");
 
@@ -273,7 +331,7 @@ function updateRootReadme(systems) {
   const before = readme.slice(0, start);
   const after = readme.slice(end + AUTO_END.length);
 
-  const generatedSection = buildRootReadmeSection(systems);
+  const generatedSection = buildRootReadmeSectionHtml(systems);
 
   fs.writeFileSync(
     README_PATH,
