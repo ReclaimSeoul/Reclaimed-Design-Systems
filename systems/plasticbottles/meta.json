@@ -1,6 +1,6 @@
 {
   "slug": "plasticbottles",
-  "title": "plastic bottles with multi purpose",
+  "title": "plastic bottles with multi joint",
   "authors": [
     {
       "name": "Seunghyuk Hyun, Jahan",
@@ -17,8 +17,8 @@
   "tags": [],
   "units": "mm",
   "metrics": {
-    "parts_total": 6,
-    "rules_total": 100
+    "parts_total": 7,
+    "rules_total": 132
   },
   "files": {
     "aggregation": "plasticbottles/aggregation.json",
