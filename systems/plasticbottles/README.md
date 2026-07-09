@@ -1,6 +1,6 @@
-# plastic bottles with multi purpose
+# plastic bottles with multi joint
 
-![plastic bottles with multi purpose](00_thumb.png)
+![plastic bottles with multi joint](00_thumb.png)
 
 ## Description
 

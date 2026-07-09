@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T01:16:11.370Z",
+  "generated_at": "2026-07-09T02:40:32.013Z",
   "count": 6,
   "systems": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "slug": "plasticbottles",
-      "name": "plastic bottles with multi purpose",
+      "name": "plastic bottles with multi joint",
       "description": "A system for reusing bottles with different sizes",
       "description_long": "",
       "tags": [],
