@@ -287,7 +287,7 @@ ${AUTO_END}`;
       system.thumbnail
     )}" alt="${escapeHtml(
       system.name
-    )}" width="360" height="240" style="width: 360px; height: 240px; object-fit: cover;">`;
+    )}" width="360">`;
     const name = `<a href="systems/${system.slug}/">${escapeHtml(
       system.name
     )}</a>`;
