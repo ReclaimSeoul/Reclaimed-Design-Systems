@@ -1,6 +1,6 @@
 # plastic bottles chain
 
-![plastic bottles chain](00_thumb.png)
+![plastic bottles chain](00_thumb.jpg)
 
 ## Description
 

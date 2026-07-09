@@ -221,6 +221,10 @@ function escapeHtml(text) {
     .trim();
 }
 
+function toSystemRelativePath(system, filePath) {
+  return filePath.replace(new RegExp(`^systems/${system.slug}/`), "");
+}
+
 function buildRootReadmeSection(systems) {
   if (systems.length === 0) {
     return `${AUTO_START}
@@ -342,6 +346,8 @@ function updateRootReadme(systems) {
 }
 
 function buildSystemReadme(system) {
+  const thumbnail = toSystemRelativePath(system, system.thumbnail);
+
   const description = [
     system.description || "_No short description provided._",
     system.description_long || "",
@@ -356,7 +362,7 @@ function buildSystemReadme(system) {
 
   return `# ${system.name}
 
-![${system.name}](00_thumb.png)
+![${system.name}](${thumbnail})
 
 ## Description
 

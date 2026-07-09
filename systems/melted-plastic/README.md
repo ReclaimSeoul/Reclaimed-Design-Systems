@@ -1,6 +1,6 @@
 # melted plastic
 
-![melted plastic](00_thumb.png)
+![melted plastic](00_thumb.jpg)
 
 ## Description
 
