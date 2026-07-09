@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T07:44:25.892Z",
+  "generated_at": "2026-07-09T07:49:16.722Z",
   "count": 7,
   "systems": [
     {
@@ -14,10 +14,8 @@
         "Andrea Rossi"
       ],
       "thumbnail": "systems/bottles-system/00_thumb.png",
-      "system_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/bottles-system",
-      "thumbnail_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/bottles-system/00_thumb.png",
-      "aggregation_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/bottles-system/aggregation.json",
-      "meta_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/bottles-system/meta.json"
+      "aggregation_url": "systems/bottles-system/aggregation.json",
+      "meta_url": "systems/bottles-system/meta.json"
     },
     {
       "slug": "melted-plastic",
@@ -31,10 +29,8 @@
         "SEUNGCHAN BAEK, JIHYEON BAEK"
       ],
       "thumbnail": "systems/melted-plastic/00_thumb.jpg",
-      "system_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/melted-plastic",
-      "thumbnail_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/melted-plastic/00_thumb.jpg",
-      "aggregation_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/melted-plastic/aggregation.json",
-      "meta_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/melted-plastic/meta.json"
+      "aggregation_url": "systems/melted-plastic/aggregation.json",
+      "meta_url": "systems/melted-plastic/meta.json"
     },
     {
       "slug": "plasticbottles",
@@ -48,10 +44,8 @@
         "Seunghyuk Hyun, Jahan"
       ],
       "thumbnail": "systems/plasticbottles/00_thumb.jpg",
-      "system_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/plasticbottles",
-      "thumbnail_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/plasticbottles/00_thumb.jpg",
-      "aggregation_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/plasticbottles/aggregation.json",
-      "meta_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/plasticbottles/meta.json"
+      "aggregation_url": "systems/plasticbottles/aggregation.json",
+      "meta_url": "systems/plasticbottles/meta.json"
     },
     {
       "slug": "plasticchain",
@@ -83,10 +77,8 @@
         "Andrea Rossi"
       ],
       "thumbnail": "systems/test-system/00_thumb.png",
-      "system_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/test-system",
-      "thumbnail_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/test-system/00_thumb.png",
-      "aggregation_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/test-system/aggregation.json",
-      "meta_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/test-system/meta.json"
+      "aggregation_url": "systems/test-system/aggregation.json",
+      "meta_url": "systems/test-system/meta.json"
     },
     {
       "slug": "tree-angle",
@@ -100,10 +92,8 @@
         "tree-team"
       ],
       "thumbnail": "systems/tree-angle/00_thumb.png",
-      "system_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/tree-angle",
-      "thumbnail_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/tree-angle/00_thumb.png",
-      "aggregation_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/tree-angle/aggregation.json",
-      "meta_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/tree-angle/meta.json"
+      "aggregation_url": "systems/tree-angle/aggregation.json",
+      "meta_url": "systems/tree-angle/meta.json"
     },
     {
       "slug": "useatlas",
@@ -117,10 +107,8 @@
         "jihyeon"
       ],
       "thumbnail": "systems/useatlas/00_thumb.png",
-      "system_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/useatlas",
-      "thumbnail_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/useatlas/00_thumb.png",
-      "aggregation_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/useatlas/aggregation.json",
-      "meta_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/useatlas/meta.json"
+      "aggregation_url": "systems/useatlas/aggregation.json",
+      "meta_url": "systems/useatlas/meta.json"
     }
   ]
 }

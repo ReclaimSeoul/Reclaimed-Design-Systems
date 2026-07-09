@@ -6,9 +6,6 @@ const SYSTEMS_DIR = path.join(REPO_ROOT, "systems");
 const CATALOG_DIR = path.join(REPO_ROOT, "catalog");
 const CATALOG_PATH = path.join(CATALOG_DIR, "catalog.json");
 const README_PATH = path.join(REPO_ROOT, "README.md");
-const CATALOG_REPO_URL =
-  "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog";
-const CATALOG_BRANCH = "main";
 
 const AUTO_START = "<!-- CATALOG:START -->";
 const AUTO_END = "<!-- CATALOG:END -->";
@@ -29,10 +26,6 @@ function assert(condition, message) {
 
 function toPosix(filePath) {
   return filePath.split(path.sep).join("/");
-}
-
-function toCatalogRepoUrl(relativePath) {
-  return `${CATALOG_REPO_URL}/blob/${CATALOG_BRANCH}/${relativePath}`;
 }
 
 function cleanString(value) {
@@ -195,10 +188,8 @@ function buildSystemsIndex() {
       author: authors.join(", "),
       authors,
       thumbnail,
-      system_url: toCatalogRepoUrl(`systems/${slug}`),
-      thumbnail_url: toCatalogRepoUrl(thumbnail),
-      aggregation_url: toCatalogRepoUrl(`systems/${slug}/aggregation.json`),
-      meta_url: toCatalogRepoUrl(`systems/${slug}/meta.json`),
+      aggregation_url: `systems/${slug}/aggregation.json`,
+      meta_url: `systems/${slug}/meta.json`,
     });
   }
 
@@ -231,24 +222,37 @@ No systems available yet.
 ${AUTO_END}`;
   }
 
-  const rows = systems
-    .map((system) => {
+  function buildSystemCell(system) {
+    if (!system) return "";
+
       const thumbnail = `![${escapeMd(system.name)}](${system.thumbnail})`;
-      const name = `[${escapeMd(system.name)}](${system.system_url})`;
+      const name = `[${escapeMd(system.name)}](systems/${system.slug}/)`;
       const author = escapeMd(system.author || "Unknown");
       const description = escapeMd(system.description || "");
       const files = `[aggregation.json](${system.aggregation_url}) · [meta.json](${system.meta_url})`;
 
-      return `| ${thumbnail} | ${name}<br><br>${description}<br><br>by ${author}<br>${files} |`;
-    })
+    return `${thumbnail}<br>${name}<br><br>${description}<br><br>by ${author}<br>${files}`;
+  }
+
+  const rows = [];
+
+  for (let index = 0; index < systems.length; index += 2) {
+    rows.push(
+      `| ${buildSystemCell(systems[index])} | ${buildSystemCell(
+        systems[index + 1]
+      )} |`
+    );
+  }
+
+  const tableRows = rows
     .join("\n");
 
   return `${AUTO_START}
 <!-- This section is automatically generated. Do not edit manually. -->
 
-| Preview | System |
+| System | System |
 |---|---|
-${rows}
+${tableRows}
 
 ${AUTO_END}`;
 }
