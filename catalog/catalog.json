@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T07:44:25.892Z",
+  "generated_at": "2026-07-09T07:46:56.676Z",
   "count": 7,
   "systems": [
     {
@@ -65,8 +65,10 @@
         "Seunghyuk Hyun, Jahan"
       ],
       "thumbnail": "systems/plasticchain/00_thumb.jpg",
-      "aggregation_url": "systems/plasticchain/aggregation.json",
-      "meta_url": "systems/plasticchain/meta.json"
+      "system_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/plasticchain",
+      "thumbnail_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/plasticchain/00_thumb.jpg",
+      "aggregation_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/plasticchain/aggregation.json",
+      "meta_url": "https://github.com/ReclaimSeoul/Reclaimed-Design-Catalog/blob/main/systems/plasticchain/meta.json"
     },
     {
       "slug": "test-system",
