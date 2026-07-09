@@ -1,6 +1,6 @@
-# plastic bottles with multi joint
+# plastic bottles chain
 
-![plastic bottles with multi joint](00_thumb.png)
+![plastic bottles chain](00_thumb.png)
 
 ## Description
 
@@ -10,7 +10,7 @@ A system for reusing bottles with different sizes
 
 | Field | Value |
 |---|---|
-| Slug | `plasticbottles` |
+| Slug | `plasticchain` |
 | Author | Seunghyuk Hyun, Jahan |
 | License | CC-BY-4.0 |
 | Tags | _No tags_ |

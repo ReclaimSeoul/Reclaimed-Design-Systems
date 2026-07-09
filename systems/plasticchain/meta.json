@@ -1,6 +1,6 @@
 {
-  "slug": "plasticbottles",
-  "title": "plastic bottles with multi joint",
+  "slug": "plasticchain",
+  "title": "plastic bottles chain",
   "authors": [
     {
       "name": "Seunghyuk Hyun, Jahan",
@@ -17,12 +17,12 @@
   "tags": [],
   "units": "mm",
   "metrics": {
-    "parts_total": 7,
-    "rules_total": 294
+    "parts_total": 1,
+    "rules_total": 24
   },
   "files": {
-    "aggregation": "plasticbottles/aggregation.json",
-    "meta": "plasticbottles/meta.json",
-    "thumbnail": "plasticbottles/00_thumb.jpg"
+    "aggregation": "plasticchain/aggregation.json",
+    "meta": "plasticchain/meta.json",
+    "thumbnail": "plasticchain/00_thumb.jpg"
   }
 }
