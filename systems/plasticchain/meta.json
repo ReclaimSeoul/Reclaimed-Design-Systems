@@ -1,6 +1,6 @@
 {
   "slug": "plasticchain",
-  "title": "plastic bottles chain 1.0",
+  "title": "plastic bottles chain 2.0",
   "authors": [
     {
       "name": "Seunghyuk Hyun, Jahan",
@@ -18,7 +18,7 @@
   "units": "mm",
   "metrics": {
     "parts_total": 2,
-    "rules_total": 136
+    "rules_total": 152
   },
   "files": {
     "aggregation": "plasticchain/aggregation.json",
