@@ -20,7 +20,7 @@ This repository collects reusable aggregation/design systems for material reuse 
 </tr>
 <tr>
 <td width="50%" valign="top"><img src="systems/plasticbottles/00_thumb.jpg" alt="plastic bottles with multi joint" width="360"><br><a href="systems/plasticbottles/">plastic bottles with multi joint</a><br><br>A system for reusing bottles with different sizes<br><br>by Seunghyuk Hyun, Jahan<br><a href="systems/plasticbottles/aggregation.json">aggregation.json</a> &middot; <a href="systems/plasticbottles/meta.json">meta.json</a></td>
-<td width="50%" valign="top"><img src="systems/plasticchain/00_thumb.png" alt="plastic bottles chain 1.0" width="360"><br><a href="systems/plasticchain/">plastic bottles chain 1.0</a><br><br>A system for reusing bottles with different sizes<br><br>by Seunghyuk Hyun, Jahan<br><a href="systems/plasticchain/aggregation.json">aggregation.json</a> &middot; <a href="systems/plasticchain/meta.json">meta.json</a></td>
+<td width="50%" valign="top"><img src="systems/plasticchain/00_thumb.png" alt="plastic bottles chain 2.0" width="360"><br><a href="systems/plasticchain/">plastic bottles chain 2.0</a><br><br>A system for reusing bottles with different sizes<br><br>by Seunghyuk Hyun, Jahan<br><a href="systems/plasticchain/aggregation.json">aggregation.json</a> &middot; <a href="systems/plasticchain/meta.json">meta.json</a></td>
 </tr>
 <tr>
 <td width="50%" valign="top"><img src="systems/test-system/00_thumb.png" alt="Test system" width="360"><br><a href="systems/test-system/">Test system</a><br><br>A system for reusing bottles with different sizes<br><br>by Andrea Rossi<br><a href="systems/test-system/aggregation.json">aggregation.json</a> &middot; <a href="systems/test-system/meta.json">meta.json</a></td>

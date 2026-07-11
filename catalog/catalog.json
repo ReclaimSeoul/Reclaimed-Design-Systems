@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T18:17:16.601Z",
+  "generated_at": "2026-07-11T02:32:18.478Z",
   "count": 7,
   "systems": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "slug": "plasticchain",
-      "name": "plastic bottles chain 1.0",
+      "name": "plastic bottles chain 2.0",
       "description": "A system for reusing bottles with different sizes",
       "description_long": "",
       "tags": [],

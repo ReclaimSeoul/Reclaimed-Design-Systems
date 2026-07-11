@@ -1,6 +1,6 @@
-# plastic bottles chain 1.0
+# plastic bottles chain 2.0
 
-![plastic bottles chain 1.0](00_thumb.png)
+![plastic bottles chain 2.0](00_thumb.png)
 
 ## Description
 
