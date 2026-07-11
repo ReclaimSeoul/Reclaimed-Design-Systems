@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T02:32:18.478Z",
-  "count": 7,
+  "generated_at": "2026-07-11T02:55:55.040Z",
+  "count": 8,
   "systems": [
     {
       "slug": "bottles-system",
@@ -61,6 +61,21 @@
       "thumbnail": "systems/plasticchain/00_thumb.png",
       "aggregation_url": "systems/plasticchain/aggregation.json",
       "meta_url": "systems/plasticchain/meta.json"
+    },
+    {
+      "slug": "plasticchain45",
+      "name": "plastic bottles chain 45 1.0",
+      "description": "A system for reusing bottles with different sizes",
+      "description_long": "",
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "author": "Seunghyuk Hyun, Jahan",
+      "authors": [
+        "Seunghyuk Hyun, Jahan"
+      ],
+      "thumbnail": "systems/plasticchain45/00_thumb.png",
+      "aggregation_url": "systems/plasticchain45/aggregation.json",
+      "meta_url": "systems/plasticchain45/meta.json"
     },
     {
       "slug": "test-system",
