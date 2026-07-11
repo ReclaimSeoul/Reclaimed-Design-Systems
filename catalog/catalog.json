@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T09:20:03.116Z",
-  "count": 9,
+  "generated_at": "2026-07-11T14:32:50.266Z",
+  "count": 10,
   "systems": [
     {
       "slug": "bottles-system",
@@ -124,6 +124,25 @@
       "thumbnail": "systems/tree-angle/00_thumb.png",
       "aggregation_url": "systems/tree-angle/aggregation.json",
       "meta_url": "systems/tree-angle/meta.json"
+    },
+    {
+      "slug": "urban-climbing-vines",
+      "name": "Urban Climbing Vines",
+      "description": "A system of climbing traingular frames from reclaimed timber and tiles",
+      "description_long": "",
+      "tags": [
+        "tiles",
+        "timber",
+        "system"
+      ],
+      "license": "CC-BY-4.0",
+      "author": "...",
+      "authors": [
+        "..."
+      ],
+      "thumbnail": "systems/urban-climbing-vines/00_thumb.png",
+      "aggregation_url": "systems/urban-climbing-vines/aggregation.json",
+      "meta_url": "systems/urban-climbing-vines/meta.json"
     },
     {
       "slug": "useatlas",
