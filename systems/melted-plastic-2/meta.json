@@ -17,8 +17,8 @@
   "tags": [],
   "units": "mm",
   "metrics": {
-    "parts_total": 6,
-    "rules_total": 56
+    "parts_total": 8,
+    "rules_total": 96
   },
   "files": {
     "aggregation": "melted-plastic-2/aggregation.json",
