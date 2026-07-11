@@ -22,7 +22,7 @@
   },
   "files": {
     "aggregation": "urban-climbing-vines/aggregation.json",
-    "meta": "urban-climbing-vinesmeta.json",
+    "meta": "urban-climbing-vines/meta.json",
     "thumbnail": "urban-climbing-vines/00_thumb.png"
   }
 }
