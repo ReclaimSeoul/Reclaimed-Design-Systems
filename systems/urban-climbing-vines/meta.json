@@ -1,0 +1,28 @@
+{
+  "slug": "urban-climbing-vines",
+  "title": "Urban Climbing Vines",
+  "authors": [
+    {
+      "name": "...",
+      "affiliation": "Reclaim Seoul"
+    }
+  ],
+  "license": {
+    "value": "CC-BY-4.0"
+  },
+  "description": {
+    "short": "A system of climbing traingular frames from reclaimed timber and tiles",
+    "long": ""
+  },
+  "tags": ["tiles", "timber", "system"],
+  "units": "mm",
+  "metrics": {
+    "parts_total": 2,
+    "rules_total": 9
+  },
+  "files": {
+    "aggregation": "urban-climbing-vines/aggregation.json",
+    "meta": "urban-climbing-vinesmeta.json",
+    "thumbnail": "urban-climbing-vines/00_thumb.png"
+  }
+}
