@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T02:55:55.040Z",
-  "count": 8,
+  "generated_at": "2026-07-11T08:58:14.359Z",
+  "count": 9,
   "systems": [
     {
       "slug": "bottles-system",
@@ -31,6 +31,21 @@
       "thumbnail": "systems/melted-plastic/00_thumb.jpg",
       "aggregation_url": "systems/melted-plastic/aggregation.json",
       "meta_url": "systems/melted-plastic/meta.json"
+    },
+    {
+      "slug": "melted-plastic-2",
+      "name": "melted plastic 2",
+      "description": "A system for reusing bottles with different sizes",
+      "description_long": "",
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "author": "SEUNGCHAN BAEK, JIHYEON BAEK",
+      "authors": [
+        "SEUNGCHAN BAEK, JIHYEON BAEK"
+      ],
+      "thumbnail": "systems/melted-plastic-2/00_thumb.jpg",
+      "aggregation_url": "systems/melted-plastic-2/aggregation.json",
+      "meta_url": "systems/melted-plastic-2/meta.json"
     },
     {
       "slug": "plasticbottles",

@@ -1,6 +1,6 @@
-# melted plastic
+# melted plastic 2
 
-![melted plastic](00_thumb.png)
+![melted plastic 2](00_thumb.jpg)
 
 ## Description
 
@@ -10,7 +10,7 @@ A system for reusing bottles with different sizes
 
 | Field | Value |
 |---|---|
-| Slug | `melted-plastic` |
+| Slug | `melted-plastic-2` |
 | Author | SEUNGCHAN BAEK, JIHYEON BAEK |
 | License | CC-BY-4.0 |
 | Tags | _No tags_ |
